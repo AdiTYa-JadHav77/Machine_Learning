@@ -3,7 +3,7 @@
 Create simple flask app
 
 Heroku email_id = 
-Heroku api key = 22374e4e-e4b7-4b51-bda6-c6ba6c953b09
+Heroku api key = <>
 Heroku app name = ml-app-reg
 
 create docker Img
