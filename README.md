@@ -2,6 +2,15 @@
 
 Create simple flask app
 
+create conda env 
+```
+conda create -p venv python==3.7 -y
+```
+activate it 
+```
+conda activate venv/
+```
+
 Heroku email_id = 
 Heroku api key = <>
 Heroku app name = ml-app-reg
