@@ -3,7 +3,7 @@
 Create simple flask app
 
 create conda env 
-```
+```p
 conda create -p venv python==3.7 -y
 ```
 activate it 
