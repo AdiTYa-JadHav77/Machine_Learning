@@ -8,7 +8,7 @@ from housing.constant import *
 import os,sys
 from housing.exception import HousingException
 
-class Configuartion:
+class Configuration:
 
     def _init__(self,
         config_file_path: str =CONFIG_FILE_PATH,

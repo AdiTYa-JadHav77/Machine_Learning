@@ -1,4 +1,4 @@
-from housing.config.configuration import Configuartion
+from housing.config.configuration import Configuration
 from housing.logger import logging
 from housing.exception import HousingException
 from housing.entity.artifact_entity import DataIngestionArtifact
@@ -7,7 +7,7 @@ from housing.component.data_ingestion import DataIngestion
 import os, sys 
 
 class Pipeline:
-    def __init__(self, config: Configuartion = Configuartion()) -> None:
+    def __init__(self, config: Configuration = Configuration()) -> None:
         try:
             self.config=config
         except Exception as e:
